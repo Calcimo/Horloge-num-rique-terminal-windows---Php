@@ -1,0 +1,19 @@
+autoactivation:on
+
+title DSeq MAJheure
+frame #white : MAJHeure
+
+participant "lanceur:LanceurHorlogeNumérique" as lanceur #aquamarine
+participant "system:Système" as system #aquamarine
+participant "horloge:HorlogeNumérique" as hl #aquamarine
+
+[->lanceur:lancerAutomatique()
+lanceur->system:date = getDate()
+lanceur<--system:
+lanceur->hl: setHeures(heure)
+lanceur<--hl:
+lanceur->hl: setMinutes(minute)
+lanceur<--hl:
+lanceur->hl: setSecondes(seconde)
+lanceur<--hl:
+[<--lanceur:

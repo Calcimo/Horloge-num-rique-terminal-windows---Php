@@ -1,0 +1,18 @@
+autoactivation:on
+
+title DSeq buildClock
+frame #white : buildClock
+
+
+participant "horloge:HorlogeNumérique" as h#aquamarine
+participant "chiffre:Chiffre" as c#aquamarine
+participant "lesChiffres:Chiffre\n//{multiObject}//" as LC #lightgray
+[->*h:HorlogeNumérique(heure, minute, seconde)
+
+loop #aquamarine pour 6
+h->*c:chf = Chiffre(valeur, position)
+h<--c:
+h->LC:array_push(chf)
+h<--LC:
+end
+[<--h:

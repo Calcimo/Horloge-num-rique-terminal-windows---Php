@@ -1,0 +1,20 @@
+autoactivation:on
+
+title DSeq drawClock
+frame #white : drawClock
+
+
+participant "lanceur:LanceurHorlogeNumérique" as l#aquamarine
+participant "horloge:HorlogeNumérique" as h#aquamarine
+participant "chiffre:Chiffre" as c#aquamarine
+participant "led:Led" as led#aquamarine
+
+
+ref over l,led:majHeure
+ref over h,led:buildClock
+
+loop pour chaque Chiffre
+	loop pour chaque Led
+		ref over h,led:drawOne
+    end
+end

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>360</x>
+      <y>96</y>
+      <w>984</w>
+      <h>720</h>
+    </coordinates>
+    <panel_attributes>Horloge leds
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>192</x>
+      <y>360</y>
+      <w>96</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>Utilisateur</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>528</x>
+      <y>228</y>
+      <w>156</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Lire l'heure</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>552</x>
+      <y>420</y>
+      <w>168</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Configurer l'horloge</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>528</x>
+      <y>612</y>
+      <w>180</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Démarrer le décompte</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>240</y>
+      <w>312</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;170.0;240.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>420</y>
+      <w>336</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>432</y>
+      <w>312</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;240.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>744</x>
+      <y>516</y>
+      <w>168</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Configurer en 
+mode manuel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>732</x>
+      <y>336</y>
+      <w>204</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Configurer en 
+mode automatique</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1032</x>
+      <y>516</y>
+      <w>288</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Régler les heures/minutes/secondes</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>516</y>
+      <w>156</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1392</x>
+      <y>348</y>
+      <w>132</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>System: sysdate
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1068</x>
+      <y>336</y>
+      <w>144</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Synchroniser</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>924</x>
+      <y>336</y>
+      <w>168</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>336</y>
+      <w>216</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>780</x>
+      <y>660</y>
+      <w>180</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Arrêter le décompte</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>672</x>
+      <y>636</y>
+      <w>132</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>90.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>84</x>
+      <y>36</y>
+      <w>168</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>Groupe : 4B
+CAMUS 
+FONTENIT 
+GUYOT
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>648</x>
+      <y>360</y>
+      <w>132</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>456</y>
+      <w>132</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>90.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

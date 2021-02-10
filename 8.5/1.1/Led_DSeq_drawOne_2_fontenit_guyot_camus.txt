@@ -1,0 +1,22 @@
+autoactivation:on
+
+title DSeq DrawOne
+
+participant "hn:Horloge Numérique" as Hn #aquamarine
+participant "leChiffre:Chiffre" as C #aquamarine
+participant "lesChiffres:Chiffre\n//{multiObject}//" as LC #lightgray
+participant "laLed:Led" as L #aquamarine
+participant "lesLeds:Led\n//{multiObject}//" as LL #lightgray
+[->Hn:dessiner()
+Hn->LC:getChiffre(index):Chiffre
+Hn<--LC:
+Hn->C:afficher()
+C->LL:getLed(indice):Led
+C<--LL:
+L->L:verifAllumage = verifAllume()
+L<--L:
+opt si verifAllumage = true
+	C->L:afficher()
+    C<--L:
+end
+Hn<--C:
